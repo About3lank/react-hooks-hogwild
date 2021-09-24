@@ -150,3 +150,8 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+img {
+  width: 50%;
+  height: auto;
+}
