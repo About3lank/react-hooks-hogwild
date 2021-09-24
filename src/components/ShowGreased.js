@@ -9,7 +9,7 @@ function ShowGreased({showGreased, setShowGreased}) {
 	}
 
     return(
-        <button onClick={handleGreaseClick}>{(showGreased === 'all')? 'Show ONLY Greasy Hogs': 'Show ALL Hogs'}</button>
+        <button onClick={handleGreaseClick}>{showGreased === 'all'? 'Show ONLY Greasy Hogs': 'Show ALL Hogs'}</button>
 
 
     )
